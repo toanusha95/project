@@ -22,7 +22,13 @@ pipeline {
          }
 
      }
-  
+   stage("delivery application") {
+         steps {
+           sh 'echo "delivery application..."'
+         }
+
+     }
+
    	}
 
    }
